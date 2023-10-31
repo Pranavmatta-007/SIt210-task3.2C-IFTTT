@@ -14,7 +14,7 @@ void setup() {
   // Initialize serial and wait for port to open
   Serial.begin(9600);
 
-  // Initialize the I2C bus
+
   Wire.begin();
 
   // Initialize the light sensor
